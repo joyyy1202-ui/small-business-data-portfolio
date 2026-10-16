@@ -1,0 +1,10 @@
+[
+  {"name":"  Alex   Chen ","email":" ALEX@example.com ","company":"Paper Studio"},
+  {"name":"Mia Lin","email":"mia@example.com","company":""},
+  {"name":"Sam Wu","email":"sam@example.com","company":"North Shop"},
+  {"name":"Alex Chen","email":"alex@example.com","company":"Paper Studio"},
+  {"name":"No email","email":"broken-address","company":"Test"},
+  {"name":" ","email":"empty@example.com","company":"Test"},
+  {"name":"=SUM(1,1)","email":"formula@example.com","company":"CSV safety demo"},
+  {"name":"Zoë Li","email":"zoe@example.com","company":"Atelier, East"}
+]

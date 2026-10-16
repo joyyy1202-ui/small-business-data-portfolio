@@ -1,0 +1,34 @@
+{
+  "input": 8,
+  "accepted": 5,
+  "rejected": 3,
+  "issues": [
+    {
+      "record": 4,
+      "reason": "Duplicate email (first valid record retained)",
+      "original": {
+        "name": "Alex Chen",
+        "email": "alex@example.com",
+        "company": "Paper Studio"
+      }
+    },
+    {
+      "record": 5,
+      "reason": "Invalid email format",
+      "original": {
+        "name": "No email",
+        "email": "broken-address",
+        "company": "Test"
+      }
+    },
+    {
+      "record": 6,
+      "reason": "Missing name",
+      "original": {
+        "name": " ",
+        "email": "empty@example.com",
+        "company": "Test"
+      }
+    }
+  ]
+}

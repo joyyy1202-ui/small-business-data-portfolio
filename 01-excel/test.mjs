@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {clean, report} from './report.mjs';
+const base = ['001', '2026-10-01', 'Online', 'Mug', 2, 12.5, 'paid'];
+const rec = values => ({values, source: 'test.xlsx/Orders:2'});
+let out = clean([rec(base), rec(base), rec([...base.slice(0, 4), 0, 12.5, 'paid']), rec(['002', '2026-02-30', ...base.slice(2)]), rec(['003', ...base.slice(1, 6), 'cancelled'])]);
+assert.equal(out.rows.length, 1); assert.equal(out.issues.length, 4);
+assert.equal(out.rows[0][4] * out.rows[0][5], 25);
+out = clean([rec(base), rec(['001', ...base.slice(1, 5), 99, 'paid'])]);
+assert.equal(out.rows.length, 0); assert.equal(out.issues.length, 2);
+assert.equal(clean([rec(['zero', ...base.slice(1, 5), 0, 'paid'])]).rows.length, 1);
+assert.equal(clean([rec(['bad', ...base.slice(1, 5), 'NaN', 'paid'])]).issues.length, 1);
+assert.equal(clean([rec(['bad', ...base.slice(1, 5), '1.234', 'paid'])]).issues.length, 1);
+assert.equal(clean([rec(['bad', ...base.slice(1, 6), 'pending'])]).issues.length, 1);
+assert.equal(clean([]).rows.length, 0);
+await assert.rejects(() => report('missing', 'report.csv'), /xlsx/);
+console.log('Excel cleaning checks passed: duplicates, conflicts, dates, amounts, status, zero and empty input.');

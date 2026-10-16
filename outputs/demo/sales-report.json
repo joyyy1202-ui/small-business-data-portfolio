@@ -1,0 +1,214 @@
+{
+  "demo": true,
+  "orders": [
+    {
+      "id": "ORD-001",
+      "date": "2026-10-01",
+      "channel": "Online",
+      "product": "Notebook",
+      "quantity": 1,
+      "unit_price": 12.5,
+      "cents": 1250
+    },
+    {
+      "id": "ORD-002",
+      "date": "2026-10-02",
+      "channel": "Retail",
+      "product": "Desk lamp",
+      "quantity": 2,
+      "unit_price": 48,
+      "cents": 9600
+    },
+    {
+      "id": "ORD-003",
+      "date": "2026-10-03",
+      "channel": "Wholesale",
+      "product": "Canvas bag",
+      "quantity": 3,
+      "unit_price": 25,
+      "cents": 7500
+    },
+    {
+      "id": "ORD-004",
+      "date": "2026-10-04",
+      "channel": "Online",
+      "product": "Mug",
+      "quantity": 4,
+      "unit_price": 18,
+      "cents": 7200
+    },
+    {
+      "id": "ORD-005",
+      "date": "2026-10-05",
+      "channel": "Retail",
+      "product": "Notebook",
+      "quantity": 5,
+      "unit_price": 12.5,
+      "cents": 6250
+    },
+    {
+      "id": "ORD-006",
+      "date": "2026-10-06",
+      "channel": "Wholesale",
+      "product": "Desk lamp",
+      "quantity": 1,
+      "unit_price": 48,
+      "cents": 4800
+    },
+    {
+      "id": "ORD-007",
+      "date": "2026-10-07",
+      "channel": "Online",
+      "product": "Canvas bag",
+      "quantity": 2,
+      "unit_price": 25,
+      "cents": 5000
+    },
+    {
+      "id": "ORD-008",
+      "date": "2026-10-08",
+      "channel": "Retail",
+      "product": "Mug",
+      "quantity": 3,
+      "unit_price": 18,
+      "cents": 5400
+    },
+    {
+      "id": "ORD-009",
+      "date": "2026-10-09",
+      "channel": "Wholesale",
+      "product": "Notebook",
+      "quantity": 4,
+      "unit_price": 12.5,
+      "cents": 5000
+    },
+    {
+      "id": "ORD-010",
+      "date": "2026-10-10",
+      "channel": "Online",
+      "product": "Desk lamp",
+      "quantity": 5,
+      "unit_price": 48,
+      "cents": 24000
+    },
+    {
+      "id": "ORD-011",
+      "date": "2026-10-11",
+      "channel": "Retail",
+      "product": "Canvas bag",
+      "quantity": 1,
+      "unit_price": 25,
+      "cents": 2500
+    },
+    {
+      "id": "ORD-012",
+      "date": "2026-10-12",
+      "channel": "Wholesale",
+      "product": "Mug",
+      "quantity": 2,
+      "unit_price": 18,
+      "cents": 3600
+    },
+    {
+      "id": "ORD-013",
+      "date": "2026-10-01",
+      "channel": "Online",
+      "product": "Notebook",
+      "quantity": 3,
+      "unit_price": 12.5,
+      "cents": 3750
+    },
+    {
+      "id": "ORD-014",
+      "date": "2026-10-02",
+      "channel": "Retail",
+      "product": "Desk lamp",
+      "quantity": 4,
+      "unit_price": 48,
+      "cents": 19200
+    },
+    {
+      "id": "ORD-015",
+      "date": "2026-10-03",
+      "channel": "Wholesale",
+      "product": "Canvas bag",
+      "quantity": 5,
+      "unit_price": 25,
+      "cents": 12500
+    },
+    {
+      "id": "ORD-016",
+      "date": "2026-10-04",
+      "channel": "Online",
+      "product": "Mug",
+      "quantity": 1,
+      "unit_price": 18,
+      "cents": 1800
+    },
+    {
+      "id": "ORD-017",
+      "date": "2026-10-05",
+      "channel": "Retail",
+      "product": "Notebook",
+      "quantity": 2,
+      "unit_price": 12.5,
+      "cents": 2500
+    },
+    {
+      "id": "ORD-018",
+      "date": "2026-10-06",
+      "channel": "Wholesale",
+      "product": "Desk lamp",
+      "quantity": 3,
+      "unit_price": 48,
+      "cents": 14400
+    },
+    {
+      "id": "ORD-019",
+      "date": "2026-10-07",
+      "channel": "Online",
+      "product": "Canvas bag",
+      "quantity": 4,
+      "unit_price": 25,
+      "cents": 10000
+    },
+    {
+      "id": "ORD-020",
+      "date": "2026-10-08",
+      "channel": "Retail",
+      "product": "Mug",
+      "quantity": 5,
+      "unit_price": 18,
+      "cents": 9000
+    },
+    {
+      "id": "ORD-021",
+      "date": "2026-10-09",
+      "channel": "Wholesale",
+      "product": "Notebook",
+      "quantity": 1,
+      "unit_price": 12.5,
+      "cents": 1250
+    },
+    {
+      "id": "ORD-022",
+      "date": "2026-10-10",
+      "channel": "Online",
+      "product": "Desk lamp",
+      "quantity": 2,
+      "unit_price": 48,
+      "cents": 9600
+    },
+    {
+      "id": "ORD-024",
+      "date": "2026-10-12",
+      "channel": "Wholesale",
+      "product": "Mug",
+      "quantity": 4,
+      "unit_price": 18,
+      "cents": 7200
+    }
+  ],
+  "inputCount": 27,
+  "excluded": 4
+}
